@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "target": "es6",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "jsx": "preserve",
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "strictNullChecks": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "noImplicitAny": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "incremental": true,
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "typeRoots": ["index.d.ts", "./node_modules/@types"]
+    },
+    "exclude": ["node_modules", "netlify"],
+    "include": ["next-env.d.ts", "index.d.ts", "**/*.ts", "**/*.tsx"],
+  }
