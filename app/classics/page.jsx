@@ -19,6 +19,8 @@ Deploy this site to your Netlify account, [enable the forms feature in the UI](h
 `;
 
 export default async function Page() {
+    console.log(process.env.NEXT_PUBLIC_FEATURE_POSTGRES_ENABLED)
+    console.log(process.env)
     return (
         <>
             <h1 className="mb-8">Netlify Classics</h1>
